@@ -2,7 +2,7 @@ import { Component } from 'react';
 import { nanoid } from 'nanoid';
 import { Wrapper } from './wrapper/wrapper';
 import data from '../data/data.json';
-import { ContactForm } from './contactForm/contactForm';
+import ContactForm from './contactForm/contactForm';
 import { ContactList } from './contactList/contactList';
 import ContactFilter from './contactFilter/contactFilter';
 

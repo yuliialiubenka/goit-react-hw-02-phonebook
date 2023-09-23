@@ -1,6 +1,4 @@
-import { createUseStyles } from "react-jss";
-
-export const useStyles = createUseStyles({
+export const styles = {
     form: {
         display: "flex",
         flexDirection: "column",
@@ -43,4 +41,4 @@ export const useStyles = createUseStyles({
         cursor: "pointer",
     }
 
-});
+};
