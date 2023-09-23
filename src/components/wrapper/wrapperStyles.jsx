@@ -22,7 +22,7 @@ export const useStyles = createUseStyles({
             backgroundImage: "none !important",
             width: '100%',
             padding: 0,
-            height: "100%"
+            height: "100vh"
         }
     },
     wrapperItem: {
