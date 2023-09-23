@@ -17,6 +17,8 @@ export const useStyles = createUseStyles({
         backgroundSize: "125%",
         backgroundPosition: "center",
         "@media (max-width: 480px)": {
+            position: "static",
+            transform: "none",
             backgroundImage: "none !important",
             width: '100%',
             padding: 0,
